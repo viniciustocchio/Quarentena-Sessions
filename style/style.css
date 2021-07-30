@@ -5,11 +5,11 @@
 }
 
 body {
-    background-color: blue;
+    background-color: #F4533F;
 }
 
 .main-header {
-    background: blueviolet;
+    background: #10222E;
 }
 
 .flex-container {
@@ -22,4 +22,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.header-nav-link {
+    color: #FEF6D2;
 }
