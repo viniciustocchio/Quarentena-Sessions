@@ -36,7 +36,6 @@ body {
 
 .projeto {
     font-family: 'London Bridge';
-    text-transform: uppercase;
     font-size: 1.2em;
     color: #FEF6D2;
     width: 90%;
@@ -44,12 +43,16 @@ body {
     margin: 40px auto;
 }
 
+.projeto h1 {
+    text-transform: uppercase;
+}
+
 .projeto .photo-container {
     width: 70%;
     margin: 0 auto;
     display: flex;
     align-items: center;
-    justify-content: space-between; 
+    justify-content: space-between;
 }
 
 .photo-container img {
