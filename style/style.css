@@ -61,14 +61,17 @@ body {
     text-transform: uppercase;
 }
 
-.projeto .photo-container {
-    width: 70%;
-    margin: 0 auto;
+.photo-container {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-direction: column;
 }
 
 .photo-container img {
     border-radius: 50%;
+    height: 270px;
+    width: 270px;
+}
+
+.photo-container p {
+    width: 30%;
 }
