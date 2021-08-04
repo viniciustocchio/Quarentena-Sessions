@@ -64,14 +64,18 @@ body {
 .photo-container {
     display: flex;
     flex-direction: column;
+	flex-wrap: wrap;
+    height: 500px;
 }
 
 .photo-container img {
     border-radius: 50%;
     height: 270px;
     width: 270px;
+    margin: 0 auto;
 }
 
 .photo-container p {
-    width: 30%;
+    width: 40%;
+    margin: 0 auto;
 }
