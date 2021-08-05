@@ -18,7 +18,7 @@ body {
 }
 
 .header-container {
-    width: 85%;
+    width: 90%;
     margin: 0 auto;
     padding: 20px 0;
     font-family: 'London Bridge';
@@ -34,7 +34,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 50%;
+    width: 600px;
 }
 
 .header-nav-link {
@@ -44,11 +44,15 @@ body {
     font-size: 1.1em;
 }
 
+.header-nav-link:nth-child(5) {
+    margin-right: 40px;
+}
+
 .header-nav-link:hover {
     color: #F4533F;
 }
 
-.projeto {
+.project {
     font-family: 'London Bridge';
     font-size: 1.2em;
     color: #FEF6D2;
@@ -57,7 +61,7 @@ body {
     margin: 40px auto;
 }
 
-.projeto h1 {
+.project h1 {
     text-transform: uppercase;
 }
 
@@ -65,17 +69,18 @@ body {
     display: flex;
     flex-direction: column;
 	flex-wrap: wrap;
-    height: 500px;
+    height: 590px;
 }
 
 .photo-container img {
     border-radius: 50%;
-    height: 270px;
-    width: 270px;
-    margin: 0 auto;
+    height: 300px;
+    width: 300px;
+    margin: 50px auto;
 }
 
 .photo-container p {
     width: 40%;
     margin: 0 auto;
 }
+
