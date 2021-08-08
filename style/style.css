@@ -93,3 +93,27 @@ body {
     margin: 0 auto;
     display: flex;
 }
+
+.videos {
+    font-family: 'London Bridge';
+    font-size: 1.2em;
+    color: #FEF6D2;
+    width: 88%;
+    align-items: center;
+    margin: 70px auto 0 auto;
+} 
+
+/* mobile */
+
+@media(max-width: 768px) {
+    .main-header {
+        flex-direction: column;
+    }
+
+    .main-header .header-container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        align-items: center;
+    }
+}
