@@ -13,18 +13,18 @@ body {
     background-color: #F4533F;
 }
 
+.container {
+    width: 88%;
+    margin: 0 auto;
+}
+
 .main-header {
     background: #10222E;
-}
-
-.header-container {
-    width: 90%;
-    margin: 0 auto;
     padding: 20px 0;
-    font-family: 'London Bridge';
 }
 
-.main-header .header-container {
+.main-header .container {
+    font-family: 'London Bridge';
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -103,17 +103,17 @@ body {
     margin: 70px auto 0 auto;
 } 
 
+.videos h1 {
+    text-transform: uppercase;
+}
+
 /* mobile */
 
 @media(max-width: 768px) {
-    .main-header {
-        flex-direction: column;
-    }
-
-    .main-header .header-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 100%;
-        align-items: center;
-    }
+   .photo-container {
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       height: 3px;
+   }
 }
